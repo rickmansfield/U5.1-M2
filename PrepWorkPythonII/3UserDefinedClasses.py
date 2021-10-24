@@ -5,6 +5,7 @@ and color of "brown". Set `dog` to have a name of "Fido",
 kind of "dog", and color of "black".
 Video I used for this solution https://www.youtube.com/watch?v=ZDa-Z5JzLYM
 Resource I used for this solution https://www.hackerearth.com/practice/python/object-oriented-programming/classes-and-objects-i/tutorial/
+Ironically he covers this in class and uses an update methodolgy. 
 """
 class Animal:
     name = ""
