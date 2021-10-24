@@ -6,3 +6,5 @@
 import modules
 perform basic list operations
 create user defined classes
+
+all other notes are in the /LectureCS47-08312021
