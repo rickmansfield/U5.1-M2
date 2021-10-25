@@ -31,7 +31,7 @@ def csWhereIsBob(names):
 """ 
 note YOU MUST USE PRINT instead of RETURN to see the answers first. Then replace "print" with "returnr" when submitting to codesignal. 
 """    
-csWhereIsBob(["Jimmy", "Layla", "Bob"]) 
+print(csWhereIsBob(["Jimmy", "Layla", "Bob"])) 
 csWhereIsBob(["Bob", "Layla", "Kaitlyn", "Patricia"])
 csWhereIsBob(["Jimmy", "Layla", "James"])
 csWhereIsBob(["Bob", "Nathan", "Hayden"])
