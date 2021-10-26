@@ -14,10 +14,10 @@ from typing import Mapping
 def csSchoolYearsAndGroups(years, groups):
     alphaGroups = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
     slicedGroups = alphaGroups[:groups]
-    print(slicedGroups)
+    # print(slicedGroups)
     finalList = []
     count = 0
- 
+    
     while count < years:
         count += 1
         # print(count)
@@ -25,6 +25,19 @@ def csSchoolYearsAndGroups(years, groups):
             countToString = str(count)
             # print(countToString) 
             finalList.append(countToString+i)
+            # print(finalList)
     return(', '.join(finalList))
 
-csSchoolYearsAndGroups(4, 7)
+print(csSchoolYearsAndGroups(4, 7))
+
+def csSchoolYearsAndGroups2(years, groups):
+    finalList=[]
+    for num in range (1, years +1):
+        for letter in 'abcdefghijklmnopqrstuvwxyz'[:groups]:
+            new = str(num) + letter
+            finalList.append(new)
+            
+    string = ", ".join(finalList)
+    return string
+
+print(csSchoolYearsAndGroups2(4, 7))

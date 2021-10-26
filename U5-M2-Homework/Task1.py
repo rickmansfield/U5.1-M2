@@ -28,6 +28,12 @@ def csWhereIsBob(names):
         NamesIndex_position = names.index("Bob")
         return(NamesIndex_position)
     else: return(-1)
+    
+def csWhereIsBob2(names):
+    if "bob" in names:
+        return names.index("Bob")
+    else: 
+        return -1
 """ 
 note YOU MUST USE PRINT instead of RETURN to see the answers first. Then replace "print" with "returnr" when submitting to codesignal. 
 """    

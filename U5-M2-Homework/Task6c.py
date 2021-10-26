@@ -1,6 +1,8 @@
 import builtins
 import math
-
+"""
+WARNING THIS CODE FAILS AND EDGE CASE
+"""
 """
 - initialize array/list of numbers using for loop
 - initialize count to zero
