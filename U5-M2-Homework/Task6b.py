@@ -9,6 +9,7 @@ import math
     - if edge case five pass
     - else add 1 to count for each number in the list
 - return total count
+-resources https://www.youtube.com/watch?v=sGYRQ68XTbE&t=319s
 
 
 print("-------dir of math----------")
