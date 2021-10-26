@@ -9,7 +9,9 @@ import math
     - if edge case five pass
     - else add 1 to count for each number in the list
 - return total count
--Resource https://www.youtube.com/watch?v=sGYRQ68XTbE&t=319s
+-Resources 
+    - https://www.youtube.com/watch?v=sGYRQ68XTbE&t=319s
+    - list comprenesion forward to time 57:43 in https://www.youtube.com/watch?v=VchuKL44s6E
 
 
 print("-------dir of math----------")
@@ -40,11 +42,16 @@ def findsFive(number):
         if digit == 5:
             result = result +1
         number = number//10
+    while number <= -1:
+        digit = number%10
+        if digit == -5:
+            result = result +1
+        number = number//10
     return result
 
 
 def csAnythingButFive(start, end):
-    rangeBoundList = [i for i in range(start, end+1)]
+    rangeBoundList = [i for i in range(start, end+1)] ## list comprenesion forward to time 57:43 in https://www.youtube.com/watch?v=VchuKL44s6E
     count = 0
     for eachNumber in rangeBoundList:
         Found = findsFive(eachNumber)
@@ -58,4 +65,9 @@ print(csAnythingButFive(1, 5)) # 4
 print(csAnythingButFive(1, 9)) # 8
 print(csAnythingButFive(4, 17)) # 12
 print(csAnythingButFive(1, 90)) #72
-print(csAnythingButFive(100, 150)) #72
+print(csAnythingButFive(100, 150)) #45
+print(csAnythingButFive(108, 168)) #46
+print(csAnythingButFive(101, 179)) #62
+print(csAnythingButFive(63, 182)) #99
+print(csAnythingButFive(-14, -6)) #9
+print(csAnythingButFive(-14, -1)) #13
