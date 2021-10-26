@@ -1,7 +1,7 @@
 # Imports / Lists / Classes
 
 ## Refernce Video
-- [CS47 Oct, 26 2021]()
+- [CS47 Oct, 26 2021](https://youtu.be/1iCO8763wSY)
 
 import modules
 perform basic list operations

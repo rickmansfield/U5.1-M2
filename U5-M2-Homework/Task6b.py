@@ -38,25 +38,23 @@ def csAnythingButFive(start, end):
     rangeBoundList = [i for i in range(start, end+1)]
     count = 0
     for eachNumber in rangeBoundList:
-        # while (eachNumber > 0):
-            print("---number to check---")
-            print(eachNumber)
-            n = eachNumber%10 # isolate final number
-            print("---%---")
-            print(n)
-            if n == 5:
-                pass
-            else:
-                eachNumber = eachNumber//10 # floor division
-                print("---floor---")
-                print(eachNumber)
-                count = count +1
-                print("----count is---")
-                print(count)
-                print("---next number---")
+        def findsFive(number):
+            result = 0
+            while number > 0:
+                digit = number%10
+                if digit == 5:
+                    result = result +1
+                number = number//10
+            return result
+        Found = findsFive(eachNumber)
+        if Found >0:
+            count = count + 0
+        else:
+            count = count + 1
     return count
 
-# print(csAnythingButFive(1, 5)) # 4
-# print(csAnythingButFive(1, 9)) # 8
-# print(csAnythingButFive(4, 17)) # 12
+print(csAnythingButFive(1, 5)) # 4
+print(csAnythingButFive(1, 9)) # 8
+print(csAnythingButFive(4, 17)) # 12
 print(csAnythingButFive(1, 90)) #72
+print(csAnythingButFive(100, 150)) #72
