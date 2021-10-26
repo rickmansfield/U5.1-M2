@@ -1,3 +1,5 @@
+import math
+import builtins
 """
 convert string of words into individual strings in a list
 see researched dir for min(), and len()
