@@ -9,7 +9,8 @@ import math
     - if edge case five pass
     - else add 1 to count for each number in the list
 - return total count
-
+- resources https://lambdaschool.instructure.com/courses/1739/pages/objective-05-use-list-comprehensions?module_item_id=622132
+- ## list comprenesion forward to time 57:43 in https://www.youtube.com/watch?v=VchuKL44s6E
 
 print("-------dir of math----------")
 print(dir(math))  # reveals isinf
@@ -35,7 +36,7 @@ print(help(sum))
 
 
 def csAnythingButFive(start, end):
-    rangeBoundList = [i for i in range(start, end+1)]
+    rangeBoundList = [i for i in range(start, end+1)] ## list comprenesion forward to time 57:43 in https://www.youtube.com/watch?v=VchuKL44s6E
     count = 0
     for eachNumber in rangeBoundList:
         # while (eachNumber > 0):
