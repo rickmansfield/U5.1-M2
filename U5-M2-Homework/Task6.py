@@ -15,7 +15,7 @@ print("-------dir of math----------")
 print(dir(math))  # reveals isinf
 
 print("-------isinf----------")
-print(dir("isinF"))
+print(dir("isinf"))
 print(help("isinf"))  # reveals startswith not helpful
 
 print("-------Builtins----------")
@@ -40,14 +40,14 @@ def csAnythingButFive(start, end):
     for eachNumber in rangeBoundList:
         # while (eachNumber > 0):
             n = eachNumber%10 # isolate final number
-            # print("---%---")
-            # print(eachNumber)
+            print("---%---")
+            print(eachNumber)
             if n == 5:
                 pass
             else:
                 eachNumber = eachNumber//10 # floor division
-                # print("---floor---")
-                # print(eachNumber)
+                print("---floor---")
+                print(eachNumber)
                 count = count +1
                 print(count)
     return count
