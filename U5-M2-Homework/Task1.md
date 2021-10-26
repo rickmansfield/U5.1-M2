@@ -1,4 +1,4 @@
-# Task 1
+# U5.1 M2 Task 1
 ## Instructions
 Write a function that searches a list of names (unsorted) for the name "Bob" and returns the location in the list. If Bob is not in the array, return -1.
 

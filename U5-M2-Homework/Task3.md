@@ -1,4 +1,4 @@
-# Codewriting
+# U5.1 M2 Task 3
 
 ## Instructions
 - Create a function that concatenates the number 7 to the end of every chord in a list. If a chord already ends with a 7, do not add another 7.

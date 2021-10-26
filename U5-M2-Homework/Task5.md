@@ -1,4 +1,4 @@
-# Codewriting
+# U5.1 M2 Task 5
 
 ## Instructions
 - Given an array of integers, return the sum of all the positive integers in the array.
