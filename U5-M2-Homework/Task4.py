@@ -17,6 +17,8 @@ min(l, key=len)
 """
 print(dir(min))
 print(help(min))
+print(dir(max))
+print(help(max))
 print(dir(len))
 print(help(len))
 
