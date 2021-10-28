@@ -17,13 +17,14 @@ l = s.split()
 max(l, key=len)
 min(l, key=len)
 """
+"""
 print(dir(min))
 print(help(min))
 print(dir(max))
 print(help(max))
 print(dir(len))
 print(help(len))
-
+"""
 str1 = "This test finds the shortest sting of words or strings of words"
 str2 = "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live"
 def csShortestWord(input_str):
